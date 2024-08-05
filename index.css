@@ -4,26 +4,27 @@ html, body {
     background-color: #EEF0F4;
     font-family: 'Rubik', sans-serif;
     color: #432000;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     max-width: 320px;
-    background-color: #fff;
+    width: 100%;
     padding: 20px;
+    background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 img {
     width: 150px;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
 }
 
 input {
@@ -34,9 +35,8 @@ input {
     font-size: 20px;
     color: #432000;
     text-align: center;
-    margin: 10px 0;
+    margin-bottom: 10px;
     font-family: 'Rubik', sans-serif;
-    width: 100%;
 }
 
 button {
@@ -47,35 +47,35 @@ button {
     font-size: 20px;
     color: #FDFDFD;
     font-family: 'Rubik', sans-serif;
-    width: 100%;
-    cursor: pointer;
+    margin-bottom: 20px;
 }
 
 button:hover {
     background-color: #432000;
+    cursor: pointer;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
-    margin-top: 20px;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: center;
 }
 
 ul li {
     background-color: #FFFDF8;
     padding: 15px;
     border-radius: 8px;
-    flex-grow: 1;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
+    flex-grow: 1;
+    min-width: 100px;
 }
 
 ul li:hover {
     background-color: #FFECC7;
+    cursor: pointer;
 }
