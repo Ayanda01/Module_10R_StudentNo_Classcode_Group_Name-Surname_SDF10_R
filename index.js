@@ -26,11 +26,6 @@ function appendItemToShoppingListEl(item) {
     const newEl = document.createElement("li");
     newEl.textContent = itemValue;
 
-    newEl.addEventListener("click", function() {
-        const exactLocationOfItemInDB = ref(database, `shoppingList/${itemID}`);
-        remove(exactLocationOfItemInDB);
-    });
-
     shoppingListEl.append(newEl);
 }
 

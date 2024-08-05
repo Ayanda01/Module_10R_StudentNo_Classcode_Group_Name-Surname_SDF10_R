@@ -16,14 +16,13 @@ html, body {
     max-width: 320px;
     width: 100%;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #EEF0F4; /* Same as the screen background */
     text-align: center;
 }
 
 img {
-    width: 150px;
+    width: 100px; /* Maximum width */
+    height: 150px;
     margin: 0 auto 20px auto;
 }
 
